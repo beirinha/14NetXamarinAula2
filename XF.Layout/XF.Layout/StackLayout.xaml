@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.Layout.StackLayout">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Spacing="20">
+                <StackLayout Orientation="Vertical" Spacing="20">
+                    <StackLayout Orientation="Horizontal">
+                        <BoxView Color="Aqua" HeightRequest="100" WidthRequest="100" />
+                        <BoxView Color="Lime" WidthRequest="100" />
+                        <BoxView Color="Purple" WidthRequest="100" />
+                        <BoxView Color="Blue" WidthRequest="100" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="30">
+                        <BoxView Color="Red" HeightRequest="100" WidthRequest="100"/>
+                        <StackLayout Orientation="Vertical" Spacing="3">
+                            <BoxView Color="#FF80FF" HeightRequest="15" WidthRequest="100" />
+                            <BoxView Color="#FF80FF" HeightRequest="15"  />
+                            <BoxView Color="#FF80FF" HeightRequest="15"  />
+                            <BoxView Color="#FF80FF" HeightRequest="15"  />
+                            <BoxView Color="#FF80FF" HeightRequest="15"  />
+                        </StackLayout>
+                        <BoxView Color="#00264d" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="2">
+                        <BoxView Color="#FF9900" HeightRequest="100" WidthRequest="100" />
+                        <BoxView Color="#00FD99" HeightRequest="100" WidthRequest="100"/>
+                        <BoxView Color="Gray" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" Spacing="2">
+                        <BoxView Color="#FF9900" HeightRequest="100" WidthRequest="100" />
+                        <BoxView Color="#00FD99" HeightRequest="100" WidthRequest="100"/>
+                        <BoxView Color="Gray" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" Spacing="2">
+                        <BoxView Color="#FF9900" HeightRequest="100" WidthRequest="100" />
+                        <BoxView Color="#00FD99" HeightRequest="100" WidthRequest="100"/>
+                        <BoxView Color="Gray" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" Spacing="2">
+                        <BoxView Color="#FF9900" HeightRequest="100" WidthRequest="100" />
+                        <BoxView Color="#00FD99" HeightRequest="100" WidthRequest="100"/>
+                        <BoxView Color="Gray" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" Spacing="2">
+                        <BoxView Color="#FF9900" HeightRequest="100" WidthRequest="100" />
+                        <BoxView Color="#00FD99" HeightRequest="100" WidthRequest="100"/>
+                        <BoxView Color="Gray" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" Spacing="2">
+                        <BoxView Color="#FF9900" HeightRequest="100" WidthRequest="100" />
+                        <BoxView Color="#00FD99" HeightRequest="100" WidthRequest="100"/>
+                        <BoxView Color="Gray" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" Spacing="2">
+                        <BoxView Color="#FF9900" HeightRequest="100" WidthRequest="100" />
+                        <BoxView Color="#00FD99" HeightRequest="100" WidthRequest="100"/>
+                        <BoxView Color="Gray" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" Spacing="2">
+                        <BoxView Color="#FF9900" HeightRequest="100" WidthRequest="100" />
+                        <BoxView Color="#00FD99" HeightRequest="100" WidthRequest="100"/>
+                        <BoxView Color="Gray" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" Spacing="2">
+                        <BoxView Color="#FF9900" HeightRequest="100" WidthRequest="100" />
+                        <BoxView Color="#00FD99" HeightRequest="100" WidthRequest="100"/>
+                        <BoxView Color="Gray" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" Spacing="2">
+                        <BoxView Color="#FF9900" HeightRequest="100" WidthRequest="100" />
+                        <BoxView Color="#00FD99" HeightRequest="100" WidthRequest="100"/>
+                        <BoxView Color="Gray" HeightRequest="100" WidthRequest="100"/>
+                    </StackLayout>
+
+                    <!--<StackLayout x:Uid="stack1"  Orientation="Horizontal">
+
+                <BoxView Visual="Material" Color="#FFF25022" HeightRequest="130"/>
+                <BoxView Color="#FF7FBA00" HeightRequest="130" />
+                <BoxView Color="#FF01A4EF" HeightRequest="130" />
+                <BoxView Color="#FFFFB901" HeightRequest="130" />
+            </StackLayout>
+
+            <StackLayout x:Uid="stack2" Padding="32" Spacing="10" Orientation="Vertical">
+
+                <BoxView Color="#FFF25022" HeightRequest="130"/>
+                <BoxView Color="#FF7FBA00" HeightRequest="130" />
+                <BoxView Color="#FF01A4EF" HeightRequest="130" />
+                <BoxView Color="#FFFFB901" HeightRequest="130" />
+
+            </StackLayout>-->
+                </StackLayout>
+                <Button Text="Voltar" Clicked="Button_Clicked"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

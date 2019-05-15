@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF.Layout"
+             x:Class="XF.Layout.MainPage">
+
+    <StackLayout Padding="32" Spacing="32">
+
+        <Label Text="Layouts Beirinha"></Label>
+        <Button Text="Stack" Clicked="btnStack" BackgroundColor="Black" TextColor="white"></Button>
+        <Button Text="Absolute" Clicked="btnAbsolute" BackgroundColor="Gray" TextColor="white"></Button>
+        <Button Text="Relative" Clicked="btnRelative" BackgroundColor="LightGray" TextColor="Black"></Button>
+        <Button Text="Calculadora" Clicked="btnGrid" BackgroundColor="LawnGreen" TextColor="Black"></Button>
+        <Button Text="Flex" Clicked="btnFlat" BackgroundColor="LightBlue" TextColor="Black"></Button>
+    </StackLayout>
+
+</ContentPage>
